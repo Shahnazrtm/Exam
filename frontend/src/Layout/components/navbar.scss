@@ -1,0 +1,77 @@
+nav {
+    // position: absolute;
+    // background-color: gray;
+
+    .container {
+        max-width: 1700px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 0;
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 50px;
+
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+
+        .basket {
+            font-size: 20px;
+        }
+
+        .buttons {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 30px;
+
+            button {
+                padding: 20px 45px;
+                border-radius: 25px;
+                border: none;
+                color: white;
+                background-color: #7d1eff;
+
+            }
+        }
+    }
+}
+
+#head {
+    // position: relative;
+    margin-top: 100px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+.container{
+    max-width: 800px;
+}
+    // background: url("https://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Vector-Smart-Object-copy-3.png");
+    // background-repeat: no-repeat;
+    h1 {
+        font-size: 70px;
+        margin-bottom: 70px;
+
+        p {
+            color: #7d1eff;
+        }
+    }
+    p{
+        margin-bottom: 30px;
+    }
+    .text{
+        font-size: 14px;
+        line-height: 23px;
+    }
+}
